@@ -1,0 +1,169 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0,0,0,0.85);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #e50914;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #e50914;
+}
+
+.signin a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.signin a:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url('https://www.slashgear.com/img/gallery/netflix-4k-streaming-on-macos-big-sur-to-require-a-t2-security-chip/intro-import.webp') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 80px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.hero button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.hero button:hover {
+    background-color: #f40612;
+}
+
+/* Media Section */
+.media-section {
+    padding: 50px 50px;
+}
+
+.media-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+
+.media {
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.media img,
+.media video {
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.media:hover img,
+.media:hover video {
+    transform: scale(1.1);
+}
+
+/* Scrollbar */
+.media-row::-webkit-scrollbar {
+    height: 8px;
+}
+
+.media-row::-webkit-scrollbar-thumb {
+    background-color: #e50914;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    border-top: 1px solid #333;
+    font-size: 0.9em;
+}
+
+/* Responsive */
+@media(max-width: 768px){
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero h1 {
+        font-size: 2em;
+    }
+    .hero p {
+        font-size: 1em;
+    }
+    .media img,
+    .media video {
+        width: 180px;
+        height: 250px;
+    }
+}
