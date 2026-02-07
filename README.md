@@ -27,12 +27,6 @@ The project is made for learning and practicing front-end web development skills
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots of your website here)
-
----
-
 ## 🔧 How to Run This Project
 
 1. Download or clone the repository:
@@ -59,59 +53,4 @@ Software Engineering Student
 If you like this project, please give it a ⭐ star on GitHub!
 
 
----
 
-# ✅ 4️⃣ Step-by-Step GitHub Upload Guide
-
-### 🔹 Step 1  
-GitHub par **New Repository** click karo.
-
-### 🔹 Step 2  
-Fill details:
-
-**Repository Name:**  
-
-
-netflix-clone-html-css
-
-
-**Description:**  
-
-
-A Netflix UI clone built using HTML and CSS.
-
-
-### 🔹 Step 3  
-Tick karo:  
-✔ Add README file  
-
-### 🔹 Step 4  
-Click **Create Repository**
-
----
-
-# ✅ 5️⃣ Extra Pro Tips (Teacher Impress Ho Jayegi)
-
-### 🔥 Add these to make project professional:
-
-### ✅ Folder Structure
-
-
-netflix-clone/
-│
-├── index.html
-├── style.css
-├── images/
-├── videos/
-└── README.md
-
-
----
-
-### ✅ Add Live Demo (Very Important)
-
-If you host on **GitHub Pages**, add this in README:
-
-```markdown
-## 🌐 Live Demo
-https://your-username.github.io/netflix-clone-html-css/
